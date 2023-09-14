@@ -1,3 +1,4 @@
+package Inheritence;
 import java.util.Scanner;
 public class Test_vehical {
     public static void main(String[] args){

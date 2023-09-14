@@ -1,3 +1,4 @@
+package Inheritence;
 // Child class of class Vehicle
 
 public class Car extends Vehical {
