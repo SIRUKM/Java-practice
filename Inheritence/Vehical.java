@@ -1,7 +1,8 @@
 package Inheritence;
 // Parent class
 
-public class Vehical {
+public class Vehical {// parent class
+                      //super class
     int cost = 0;
     int milage = 0;
 
