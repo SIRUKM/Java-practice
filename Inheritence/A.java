@@ -1,18 +1,22 @@
 package Inheritence;
-
-class A {
+//Herirical Inheritance
+//      A
+//     / \
+//    /   \
+//   B     C
+class A {//parent class
     void showA() {
         System.out.println("A class method");
     }
 }
 
-class B extends A {// Single Level Inhertince
+class B extends A {// Herirical Inhertince
     void showB() {
         System.out.println("B class method");
     }
 }
 
-class C extends B{// Multi Level Inhertince
+class C extends A{// Herirical Inheritance
     void showC(){
         System.out.println("C class method");
     }
@@ -27,8 +31,8 @@ class C extends B{// Multi Level Inhertince
         obj2.showA();
 
         C obj3 = new C();
-        obj3.showA();   //{      
-        obj3.showB();      // obj3 C ka object hai , from this we are calling A,B and C
-        obj3.showC();   //}
+        obj3.showA();       
+        // obj3.showB();//B ko call nahi kar sakte     
+        obj3.showC(); 
     }
 }
