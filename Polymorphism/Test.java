@@ -1,4 +1,6 @@
 package Polymorphism;
+
+// Compile time Polymorphism(Static Polymorphism)
 //Method overloading 
 // 1.Same class
 // 2. Same name Methods
