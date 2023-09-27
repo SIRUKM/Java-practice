@@ -1,4 +1,5 @@
-package This;
+package Keywords;
+
 class A {
     int i = 10;
 
@@ -24,12 +25,13 @@ class B extends A {
         System.out.println("I in B");
     }
 
-    void show1(){
-        mi();//ye class B ke mi ko call karega
+    void show1() {
+        mi();// ye class B ke mi ko call karega
     }
-    void show2(){
-        super.mi();//ye class A ke mi ko call karega
-        //super hamesha he parent class ko refer karta hai
+
+    void show2() {
+        super.mi();// ye class A ke mi ko call karega
+        // super hamesha he parent class ko refer karta hai
     }
 
     public static void main(String[] args) {
