@@ -1,6 +1,6 @@
 package Keywords;
 
-class Static1 {
+public class Static1 {
     int EmpId;
     static String dept = "ee";
     private static Object show;
